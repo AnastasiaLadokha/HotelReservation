@@ -7,7 +7,17 @@ package hotel;
 public class Currency {
     private int id;
     private String name;
-    private float value;
+    private double value;
+
+    public Currency(){
+
+    }
+
+    public Currency(int id, String name, double value) {
+        this.id = id;
+        this.name = name;
+        this.value = value;
+    }
 
     public int getId() {
         return id;
@@ -25,17 +35,11 @@ public class Currency {
         this.name = name;
     }
 
-    public float getValue() {
+    public double getValue() {
         return value;
     }
 
-    public void setValue(float value) {
-        this.value = value;
-    }
-
-    public Currency(int id, String name, float value) {
-        this.id = id;
-        this.name = name;
+    public void setValue(double value) {
         this.value = value;
     }
 }
