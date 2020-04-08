@@ -11,6 +11,8 @@ public class Card {
     private int id;
     private int number;
     private User user;
+    public Card(){
+    }
 
     public Card(int id, int number, User user) {
         this.id = id;

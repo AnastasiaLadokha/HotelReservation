@@ -21,6 +21,8 @@ public class User {
     private String surname;
     private String email;
     private List<Card> cards;
+    public User(){
+    }
 
     public User(int id, String name, String surname, String email, List<Card> cards) {
         this.id = id;
