@@ -16,6 +16,17 @@ public class Room {
     private String type;
     private int price;
 
+    public Room(){
+
+    }
+
+    public Room(int id, int number, String type, int price) {
+        this.id = id;
+        this.number = number;
+        this.type = type;
+        this.price = price;
+    }
+
     public int getId() {
         return id;
     }
@@ -45,13 +56,6 @@ public class Room {
     }
 
     public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public Room(int id, int number, String type, int price) {
-        this.id = id;
-        this.number = number;
-        this.type = type;
         this.price = price;
     }
 }

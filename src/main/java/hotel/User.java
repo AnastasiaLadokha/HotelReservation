@@ -21,6 +21,7 @@ public class User {
     private String surname;
     private String email;
     private List<Card> cards;
+
     public User(){
     }
 
