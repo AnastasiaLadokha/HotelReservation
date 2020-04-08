@@ -9,12 +9,13 @@ public class CardTest {
     @Test
     public void createCardObjectTest(){
         Card card = new Card();
+        User user = new User();
         card.setId(1);
         card.setNumber(1234);
-        card.setUser(new User());
+        card.setUser(user);
 
         assertEquals(card.getId(), 1);
         assertEquals(card.getNumber(), 1234);
-        assertEquals(card.getUser(), new User());
+        assertEquals(card.getUser(), user);
     }
 }

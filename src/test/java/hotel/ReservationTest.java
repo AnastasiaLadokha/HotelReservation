@@ -8,13 +8,15 @@ public class ReservationTest {
     @Test
     public void createReservationObjectTest() {
         Reservation reservation = new Reservation();
+        User user = new User();
+        Hotel hotel = new Hotel();
 
         reservation.setId(1);
-        reservation.setUser(new User());
-        reservation.setHotel(new Hotel());
+        reservation.setUser(user);
+        reservation.setHotel(hotel);
 
         assertEquals(reservation.getId(), 1);
-        assertEquals(reservation.getUser(), new User());
-        assertEquals(reservation.getHotel(), new Hotel());
+        assertEquals(reservation.getUser(), user);
+        assertEquals(reservation.getHotel(), hotel);
     }
 }
