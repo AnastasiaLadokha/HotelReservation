@@ -14,6 +14,9 @@ public class Reservation {
     private User user;
     private Hotel hotel;
 
+    public Reservation(){
+    }
+
     public Reservation(int id, User user, Hotel hotel) {
         this.id = id;
         this.user = user;

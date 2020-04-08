@@ -21,6 +21,9 @@ public class Service {
     private boolean pool;
     private boolean parking;
 
+    public Service(){
+    }
+
     public Service(int id, boolean internet, boolean bar, boolean restaurant, boolean spa, boolean pool, boolean parking) {
         this.id = id;
         this.internet = internet;

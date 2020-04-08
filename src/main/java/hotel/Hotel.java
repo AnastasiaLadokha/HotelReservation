@@ -1,7 +1,7 @@
 /**
  * \brief Класс отеля
  * Данный класс используется для отображения информации об отеле
- *
+ * <p>
  * \param id  уникальный id номер для каждого отеля
  * \param name название отеля
  * \param stars количество звезд отеля
@@ -9,7 +9,6 @@
  * \param phoneNumber телефонный номер отеля
  * \param service класс сервисов
  * \param rooms список номеров отеля
- *
  */
 package hotel;
 
@@ -23,6 +22,9 @@ public class Hotel {
     private String phoneNumber;
     private Service service;
     private List<Room> rooms;
+
+    public Hotel() {
+    }
 
     public Hotel(int id, String name, int stars, String distanceToCenter, String phoneNumber, Service service, List<Room> rooms) {
         this.id = id;
