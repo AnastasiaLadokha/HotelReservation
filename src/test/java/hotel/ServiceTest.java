@@ -2,7 +2,7 @@ package hotel;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class ServiceTest {
     @Test
@@ -18,11 +18,11 @@ public class ServiceTest {
         service.setSpa(false);
 
         assertEquals(service.getId(), 1);
-        assertEquals(service.isBar(), false);
-        assertEquals(service.isInternet(), true);
-        assertEquals(service.isParking(), true);
-        assertEquals(service.isPool(), false);
-        assertEquals(service.isRestaurant(), true);
-        assertEquals(service.isSpa(), false);
+        assertFalse(service.isBar());
+        assertTrue(service.isInternet());
+        assertTrue(service.isParking());
+        assertFalse(service.isPool());
+        assertTrue(service.isRestaurant());
+        assertFalse(service.isSpa());
     }
 }

@@ -19,3 +19,4 @@ public class CardTest {
         assertEquals(card.getUser(), user);
     }
 }
+

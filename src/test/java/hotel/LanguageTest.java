@@ -16,5 +16,4 @@ public class LanguageTest {
         assertEquals(language.getId(), 1);
         assertEquals(language.getName(), "English");
     }
-
 }
