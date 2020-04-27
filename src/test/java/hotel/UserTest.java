@@ -27,6 +27,4 @@ public class UserTest {
         assertEquals(user.getSurname(),"Петров");
         assertEquals(user.getCards(),cards);
     }
-
-
 }

@@ -9,6 +9,7 @@ public class CardTest {
     @Test
     public void createCardObjectTest(){
         Card card = new Card();
+        Card card1 = Card.builder().id(1).number(10).build();
         User user = new User();
         card.setId(1);
         card.setNumber(1234);

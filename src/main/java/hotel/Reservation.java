@@ -9,43 +9,18 @@
  */
 package hotel;
 
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
 public class Reservation {
     private int id;
     private User user;
     private Hotel hotel;
 
-    public Reservation(){
-    }
-
-    public Reservation(int id, User user, Hotel hotel) {
-        this.id = id;
-        this.user = user;
-        this.hotel = hotel;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    public Hotel getHotel() {
-        return hotel;
-    }
-
-    public void setHotel(Hotel hotel) {
-        this.hotel = hotel;
-    }
 
     /**
      * Создает резерв на основе данных
