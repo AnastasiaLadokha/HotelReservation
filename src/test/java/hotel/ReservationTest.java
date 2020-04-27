@@ -1,5 +1,8 @@
 package hotel;
 
+import hotel.model.Hotel;
+import hotel.model.Reservation;
+import hotel.model.User;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,9 +10,9 @@ import static org.junit.Assert.assertEquals;
 public class ReservationTest {
     @Test
     public void createReservationObjectTest() {
-        Reservation reservation = new Reservation();
-        User user = new User();
-        Hotel hotel = new Hotel();
+        Reservation reservation = Reservation.builder().build();
+        User user = User.builder().build();
+        Hotel hotel = Hotel.builder().build();
 
         reservation.setId(1);
         reservation.setUser(user);

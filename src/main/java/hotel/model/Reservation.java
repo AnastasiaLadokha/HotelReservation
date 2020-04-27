@@ -7,15 +7,13 @@
  * \param hotel класс отеля, в котором нужно сделать резерв
  *
  */
-package hotel;
+package hotel.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
 public class Reservation {
     private int id;
     private User user;

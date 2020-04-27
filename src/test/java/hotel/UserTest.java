@@ -1,5 +1,7 @@
 package hotel;
 
+import hotel.model.Card;
+import hotel.model.User;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -10,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 public class UserTest {
     @Test
     public void createUserObjectTest(){
-        User user = new User();
+        User user = User.builder().build();
 
         user.setId(1);
         user.setName("Максим");
@@ -18,7 +20,7 @@ public class UserTest {
         user.setSurname("Петров");
 
         List<Card> cards = new ArrayList<>();
-        cards.add(new Card());
+        cards.add(Card.builder().build());
         user.setCards(cards);
 
         assertEquals(user.getId(),1);

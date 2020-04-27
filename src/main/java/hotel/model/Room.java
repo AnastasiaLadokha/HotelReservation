@@ -8,15 +8,13 @@
  * \param price цена за комнату
  *
  */
-package hotel;
+package hotel.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
 public class Room {
     private int id;
     private int number;

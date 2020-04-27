@@ -1,5 +1,6 @@
 package hotel;
 
+import hotel.model.Currency;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +9,7 @@ public class CurrencyTest {
     @Test
     public void createCurrencyObjectTest(){
 
-        Currency currency = new Currency();
+        Currency currency = Currency.builder().build();
 
         currency.setId(1);
         currency.setName("UAH");

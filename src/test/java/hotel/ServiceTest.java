@@ -1,5 +1,6 @@
 package hotel;
 
+import hotel.model.Service;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -7,7 +8,7 @@ import static org.junit.Assert.*;
 public class ServiceTest {
     @Test
     public void createServiceObjectTest(){
-        Service service = new Service();
+        Service service = Service.builder().build();
 
         service.setId(1);
         service.setInternet(true);

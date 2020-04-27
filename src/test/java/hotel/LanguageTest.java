@@ -1,5 +1,6 @@
 package hotel;
 
+import hotel.model.Language;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -8,7 +9,7 @@ public class LanguageTest {
 
     @Test
     public void createLanguageObjectTest() {
-        Language language = new Language();
+        Language language = Language.builder().build();
 
         language.setId(1);
         language.setName("English");

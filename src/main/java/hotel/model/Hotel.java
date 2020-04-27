@@ -10,16 +10,14 @@
  * \param service класс сервисов
  * \param rooms список номеров отеля
  */
-package hotel;
+package hotel.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.List;
 @Data
 @Builder
-@NoArgsConstructor
 public class Hotel {
     private int id;
     private String name;

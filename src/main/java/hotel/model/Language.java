@@ -1,8 +1,7 @@
-package hotel;
+package hotel.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * \brief Класс языка страницы
@@ -11,7 +10,6 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
 public class Language {
     private int id;
     private String name;

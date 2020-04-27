@@ -1,5 +1,8 @@
 package hotel;
 
+import hotel.model.Hotel;
+import hotel.model.Room;
+import hotel.model.Service;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,16 +14,16 @@ public class HotelTest {
 
     @Test
     public void createHotelObjectTest() {
-        Hotel hotel = new Hotel();
+        Hotel hotel = Hotel.builder().build();
 
         hotel.setId(1);
         hotel.setName("A-travel");
         hotel.setDistanceToCenter("1км");
         hotel.setPhoneNumber("+380-93-777-11-11");
         List<Room> rooms = new ArrayList<>();
-        rooms.add(new Room());
+        rooms.add(Room.builder().build());
         hotel.setRooms(rooms);
-        Service service = new Service();
+        Service service = Service.builder().build();
         hotel.setService(service);
         hotel.setStars(5);
 

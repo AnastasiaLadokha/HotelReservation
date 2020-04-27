@@ -1,5 +1,6 @@
 package hotel;
 
+import hotel.model.Room;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -7,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class RoomTest {
     @Test
     public void createRoomObjectTest(){
-        Room room = new Room();
+        Room room = Room.builder().build();
 
         room.setId(1);
         room.setNumber(10);

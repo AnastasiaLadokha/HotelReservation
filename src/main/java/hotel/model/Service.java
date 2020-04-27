@@ -1,10 +1,7 @@
-package hotel;
+package hotel.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.util.List;
 
 /**
  * \brief Класс отвечающий за наличие сервисов в отеле
@@ -17,7 +14,6 @@ import java.util.List;
  */
 @Data
 @Builder
-@NoArgsConstructor
 public class Service {
     private int id;
     private boolean internet;

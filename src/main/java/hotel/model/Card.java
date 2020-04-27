@@ -6,17 +6,15 @@
  * \param user пользователь, которому принадлежит данная карта
  */
 
-package hotel;
+package hotel.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @Builder
-@NoArgsConstructor
 public class Card {
-    private int id;
+    private Long id;
     private int number;
     private User user;
 }
