@@ -4,7 +4,6 @@ import com.nastia.hotel.model.Card;
 import com.nastia.hotel.model.User;
 import org.junit.Test;
 
-import static java.util.Optional.ofNullable;
 import static org.junit.Assert.assertEquals;
 
 public class CardTest {
@@ -18,7 +17,7 @@ public class CardTest {
         card.setNumber(1234);
         card.setUser(user);
 
-        assertEquals(ofNullable(card1.getId()), 1L);
+        assertEquals(card1.getId(), new Long(1));
         assertEquals(card.getNumber(), 1234);
         assertEquals(card.getUser(), user);
     }
