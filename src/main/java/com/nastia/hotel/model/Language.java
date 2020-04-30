@@ -1,4 +1,4 @@
-package hotel.model;
+package com.nastia.hotel.model;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Currency;
+import com.nastia.hotel.model.Currency;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -2,7 +2,7 @@
  * \brief Класс валюты
  * Данный класс используется для отображения цены в заданой валюте
  */
-package hotel.model;
+package com.nastia.hotel.model;
 
 import lombok.Builder;
 import lombok.Data;

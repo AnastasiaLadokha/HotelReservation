@@ -10,7 +10,7 @@
  * \param service класс сервисов
  * \param rooms список номеров отеля
  */
-package hotel.model;
+package com.nastia.hotel.model;
 
 import lombok.Builder;
 import lombok.Data;

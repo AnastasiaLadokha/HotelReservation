@@ -1,6 +1,6 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Room;
+import com.nastia.hotel.model.Room;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

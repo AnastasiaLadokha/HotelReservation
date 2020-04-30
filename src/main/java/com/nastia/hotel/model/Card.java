@@ -6,7 +6,7 @@
  * \param user пользователь, которому принадлежит данная карта
  */
 
-package hotel.model;
+package com.nastia.hotel.model;
 
 import lombok.Builder;
 import lombok.Data;

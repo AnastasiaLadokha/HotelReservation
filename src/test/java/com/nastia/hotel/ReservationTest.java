@@ -1,8 +1,8 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Hotel;
-import hotel.model.Reservation;
-import hotel.model.User;
+import com.nastia.hotel.model.Hotel;
+import com.nastia.hotel.model.Reservation;
+import com.nastia.hotel.model.User;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

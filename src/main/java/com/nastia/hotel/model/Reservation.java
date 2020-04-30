@@ -4,10 +4,10 @@
  * Данный класс используется для создания резерва номера в отеле
  * \param id уникальный номер резерва
  * \param user класс пользователя, который хочет сделать резерв
- * \param hotel класс отеля, в котором нужно сделать резерв
+ * \param com.nastia.hotel класс отеля, в котором нужно сделать резерв
  *
  */
-package hotel.model;
+package com.nastia.hotel.model;
 
 import lombok.Builder;
 import lombok.Data;

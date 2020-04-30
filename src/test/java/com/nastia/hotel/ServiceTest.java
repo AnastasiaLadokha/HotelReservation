@@ -1,6 +1,6 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Service;
+import com.nastia.hotel.model.Service;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

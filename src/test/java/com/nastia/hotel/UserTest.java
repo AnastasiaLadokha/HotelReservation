@@ -1,7 +1,7 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Card;
-import hotel.model.User;
+import com.nastia.hotel.model.Card;
+import com.nastia.hotel.model.User;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,8 +1,8 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Hotel;
-import hotel.model.Room;
-import hotel.model.Service;
+import com.nastia.hotel.model.Hotel;
+import com.nastia.hotel.model.Room;
+import com.nastia.hotel.model.Service;
 import org.junit.Test;
 
 import java.util.ArrayList;

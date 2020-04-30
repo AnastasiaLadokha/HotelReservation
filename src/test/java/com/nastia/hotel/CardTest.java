@@ -1,9 +1,8 @@
-package hotel;
+package com.nastia.hotel;
 
-import hotel.model.Card;
-import hotel.model.User;
+import com.nastia.hotel.model.Card;
+import com.nastia.hotel.model.User;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import static java.util.Optional.ofNullable;
 import static org.junit.Assert.assertEquals;
