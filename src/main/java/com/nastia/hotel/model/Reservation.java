@@ -26,7 +26,10 @@ public class Reservation {
      */
 
     public void makeReservation(Reservation reservation){
-
+        if(id == 0 || user == null || hotel == null){
+            return;
+        }
+        
     }
 
 }
